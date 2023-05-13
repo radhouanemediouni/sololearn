@@ -1,0 +1,39 @@
+#fields {
+  padding-top: 10px;
+}
+.d1 {
+  width: 3840px;
+  height: 720px;
+  background-color: #ededed;
+  background-image: url("/BestApp_SoloLearn.jpg");
+  background-size: contain;
+  animation: fondu 12s linear infinite;
+}
+.d2 {
+  width: 400%;
+  height: 0px;
+  padding-top: 75%;
+  background-color: #ededed;
+  background-image: url("./téléchargement.....jpg");
+  background-image: url("./téléchargement...jpg");
+  background-image: url("./téléchargement.png");
+  background-size: contain;
+}
+.d1:hover,
+.d2:hover {
+  animation-play-state: paused;
+}
+.container {
+  max-width: 960px;
+  overflow: hidden;
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px #777;
+}
+@keyframes defilement2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-75, 0);
+  }
+}
